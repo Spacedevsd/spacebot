@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  bot:
+    build: .
+    container_name: spacebot
+    command: npm run start
+    volumes:
+      - ".:/usr/app"
