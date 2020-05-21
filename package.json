@@ -12,6 +12,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.9.15",
+    "nodemailer": "^6.4.6",
+    "nodemailer-express-handlebars": "^4.0.0",
     "telegraf": "^3.38.0"
   },
   "devDependencies": {
